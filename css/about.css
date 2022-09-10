@@ -1,0 +1,213 @@
+.about-page .heading {
+  padding: 50px 80px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.about-page .heading h2 {
+  font-size: 2.9rem;
+}
+
+.about-page .heading a {
+  text-decoration: none;
+  color: #29f3c3;
+}
+
+@media screen and (max-width: 920px) {
+  .about-page .heading {
+    padding: 25px 40px;
+  }
+  .about-page .heading h2 {
+    font-size: 35px;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .about-page .heading {
+    padding: 25px 20px;
+  }
+  .about-page .heading h2 {
+    font-size: 25px;
+  }
+}
+
+.about-page .desc {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  padding: 0px;
+  padding-bottom: 25px;
+}
+
+.about-page .desc .summ {
+  padding: 20px;
+  width: 50vw;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+@media screen and (max-width: 920px) {
+  .about-page .desc .summ {
+    width: 80vw;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .about-page .desc .summ {
+    width: 95vw;
+  }
+}
+
+.about-page .border {
+  border: 3px solid #29f3c3;
+  padding-top: 20px;
+  margin: 0px 100px;
+}
+
+@media screen and (max-width: 920px) {
+  .about-page .border {
+    padding-top: 30px;
+    margin: 0px 10px;
+  }
+}
+
+.about-page .left {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding-top: 20px;
+}
+
+.about-page .left .first {
+  padding-bottom: 20px;
+}
+
+.about-page .left .second {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  width: 70vw;
+  padding: 10px;
+}
+
+@media screen and (max-width: 920px) {
+  .about-page .left .second {
+    width: 80vw;
+    padding: 10px 0px;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .about-page .left .second {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    padding-left: 20px;
+  }
+}
+
+.about-page .techs {
+  padding: 40px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.about-page .techs .head {
+  padding: 20px;
+}
+
+.about-page .techs .iconss {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+}
+
+.about-page .techs .icns {
+  padding: 30px;
+}
+
+@media screen and (max-width: 920px) {
+  .about-page .techs .head {
+    padding: 0px;
+  }
+}
+
+.about-page .btn {
+  padding: 30px 0px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.about-page .btn button {
+  background: #111111;
+  color: white;
+  padding: 10px 30px;
+  border: 3px solid #29f3c3;
+}
+/*# sourceMappingURL=about.css.map */

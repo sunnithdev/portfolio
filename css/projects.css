@@ -1,0 +1,180 @@
+.project-page .heading {
+  padding: 50px 80px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.project-page .heading h2 {
+  font-size: 2.9rem;
+}
+
+.project-page .heading a {
+  text-decoration: none;
+  color: #29f3c3;
+}
+
+@media screen and (max-width: 920px) {
+  .project-page .heading {
+    padding: 25px 40px;
+  }
+  .project-page .heading h2 {
+    font-size: 35px;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .project-page .heading {
+    padding: 25px 20px;
+  }
+  .project-page .heading h2 {
+    font-size: 25px;
+  }
+}
+
+.project-page .projects {
+  border: 3px solid #29f3c3;
+  padding-top: 20px;
+  margin: 0px 100px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.project-page .projects hr {
+  height: 3px;
+  color: #29f3c3;
+  background-color: #29f3c3;
+  border: none;
+  width: 10vw;
+}
+
+@media screen and (max-width: 920px) {
+  .project-page .projects {
+    padding-top: 30px;
+    margin: 0px 10px;
+    margin-bottom: 40px;
+  }
+  .project-page .projects hr {
+    width: 30vw;
+  }
+}
+
+.project-page .projects .proj1 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.project-page .projects .proj1 img {
+  margin: 30px;
+  width: 20vw;
+}
+
+.project-page .projects .proj1 .paras {
+  margin: 30px;
+}
+
+@media screen and (max-width: 920px) {
+  .project-page .projects .proj1 {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .project-page .projects .proj1 {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .project-page .projects .proj1 img {
+    margin: 30px;
+    width: 70vw;
+  }
+}
+
+.project-page .projects .proj2 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.project-page .projects .proj2 img {
+  margin: 30px;
+  width: 20vw;
+}
+
+.project-page .projects .proj2 .paras {
+  margin: 30px;
+}
+
+@media screen and (max-width: 920px) {
+  .project-page .projects .proj2 {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .project-page .projects .proj2 img {
+    margin: 30px;
+    width: 50vw;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .project-page .projects .proj2 {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: reverse;
+        -ms-flex-direction: column-reverse;
+            flex-direction: column-reverse;
+  }
+  .project-page .projects .proj2 img {
+    margin: 30px;
+    width: 70vw;
+  }
+}
+/*# sourceMappingURL=projects.css.map */
